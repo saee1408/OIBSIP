@@ -1,0 +1,250 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fffaf3;
+  font-family: "Poppins", sans-serif;
+  color: #333;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background: #f3e5d8;
+}
+
+.logo {
+  font-family: "Playfair Display", serif;
+  font-size: 28px;
+  color: #5a3e2b;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #5a3e2b;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: black;
+}
+
+.btn {
+  padding: 10px 18px;
+  border: none;
+  background: #5a3e2b;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #3e2a1d;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 60px;
+}
+
+.hero-text {
+  max-width: 50%;
+}
+
+.hero-text h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 55px;
+  margin-bottom: 20px;
+  color: #5a3e2b;
+}
+
+.hero-text p {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.hero-btn {
+  display: inline-block;
+  padding: 12px 25px;
+  background: #b7d3c6;
+  color: black;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero-btn:hover {
+  background: #98b8aa;
+}
+
+.hero-img img {
+  width: 380px;
+  border-radius: 20px;
+  box-shadow: 0px 8px 20px rgba(0,0,0,0.2);
+}
+
+.menu {
+  padding: 60px;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 40px;
+  margin-bottom: 40px;
+  font-family: "Playfair Display", serif;
+  color: #5a3e2b;
+}
+
+.menu-cards {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.card {
+  background: white;
+  width: 250px;
+  padding: 15px;
+  border-radius: 18px;
+  box-shadow: 0px 6px 15px rgba(0,0,0,0.15);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+.card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.card h3 {
+  margin: 15px 0 10px;
+  color: #5a3e2b;
+}
+
+.card p {
+  font-size: 14px;
+  color: #555;
+}
+
+.reviews {
+  padding: 60px;
+  text-align: center;
+}
+
+.review-box {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.review {
+  background: white;
+  padding: 20px;
+  width: 250px;
+  border-radius: 15px;
+  box-shadow: 0px 6px 12px rgba(0,0,0,0.15);
+}
+
+.review p {
+  margin: 15px 0;
+  font-size: 14px;
+}
+
+.review h4 {
+  color: #5a3e2b;
+}
+
+.about {
+  padding: 60px;
+  text-align: center;
+  background: #f3e5d8;
+}
+
+.about p {
+  max-width: 700px;
+  margin: auto;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.hours {
+  padding: 50px;
+  text-align: center;
+  background: #fffaf3;
+}
+
+.hours p {
+  font-size: 18px;
+  margin: 8px;
+}
+
+.newsletter {
+  padding: 60px;
+  text-align: center;
+  background: #f3e5d8;
+}
+
+.newsletter input {
+  padding: 12px;
+  width: 250px;
+  border-radius: 8px;
+  border: 1px solid #aaa;
+}
+
+.newsletter button {
+  padding: 12px 20px;
+  border: none;
+  background: #5a3e2b;
+  color: white;
+  border-radius: 8px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.newsletter button:hover {
+  background: black;
+}
+
+.contact {
+  padding: 60px;
+  text-align: center;
+}
+
+.contact p {
+  font-size: 16px;
+  margin: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #5a3e2b;
+  color: white;
+}
+
+.socials {
+  margin-top: 10px;
+}
+
+.socials a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.socials a:hover {
+  text-decoration: underline;
+}
